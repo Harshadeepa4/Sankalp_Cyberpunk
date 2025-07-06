@@ -1,0 +1,107 @@
+body {
+    background: linear-gradient(to right, #161821, #262b3a);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite; 
+    color: #c7c7c7;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .user-profile-setup {
+    /* ... (rest of your user-profile-setup styles) */
+    box-shadow: 0 0 10px rgba(249, 115, 22, 0.5); /* Glowing orange shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+  }
+  
+  .user-profile-setup:hover {
+    box-shadow: 0 0 15px rgba(249, 115, 22, 0.7); /* Stronger glow on hover */
+  }
+.user-profile-setup {
+    background-color: #262b3a; /* Ayu Dark background */
+    border: 1px solid #f97316; /* Ayu Dark border */
+    padding: 20px;
+    width: 400px; /* Adjust as needed */
+    margin: 50px auto; /* Center the form */
+    border-radius: 5px; /* Optional rounded corners */
+  }
+  
+  .user-profile-setup h2 {
+    color: #c7c7c7; /* Ayu Dark text color */
+    text-align: center;
+  }
+  
+  .user-profile-setup .steps {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile-setup .steps span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #161821; /* Ayu Dark background for steps */
+    color: #c7c7c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+  }
+  
+  .user-profile-setup .steps span.active {
+    background: linear-gradient(to right, #f97316, #7c2d12); /* Orange gradient for active step */
+    color: white;
+  }
+  
+  .user-profile-setup .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .user-profile-setup label {
+    display: block;
+    margin-bottom: 5px;
+    color: #c7c7c7;
+  }
+  
+  .user-profile-setup input,
+  .user-profile-setup select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ee751f;
+    background-color: #161821;
+    color: #c7c7c7;
+    border-radius: 3px;
+  }
+  
+  .user-profile-setup .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .user-profile-setup button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .user-profile-setup button.previous {
+    background-color: #ee751f;
+    color: #c7c7c7;
+  }
+  
+  .user-profile-setup button.next {
+    background: linear-gradient(to right, #f97316, #7c2d12); /* Orange gradient for "Next" button */
+    color: white;
+  }
