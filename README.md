@@ -62,3 +62,5 @@ The platform supports multiple languages, ensuring inclusivity for farmers acros
 - Sensors for NPK, humidity, temperature, and other environmental data
 
 ---
+
+MVP link - https://hosting-bfb24.web.app/
